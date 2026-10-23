@@ -7,9 +7,10 @@ Source project for DevToys 2.x (.NET 8).
 ## Build
 
 ```powershell
+dotnet clean
 dotnet restore
 dotnet build -c Release
-dotnet pack -c Release
+dotnet pack -c Release --no-build
 ```
 
 Install the resulting `.nupkg` from DevToys > Manage extensions.
