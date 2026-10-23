@@ -2,6 +2,8 @@
 
 Source project for DevToys 2.x (.NET 8).
 
+![Universal Encoding Converter](screenshots/encoding-converter.png)
+
 ## Build
 
 ```powershell
