@@ -1,0 +1,95 @@
+
+# ==========================================
+# DevToys.UniversalEncoding
+# C# / .NET 8 / Visual Studio
+# ==========================================
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+publish/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.slnx.ide
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/packages/
+*.nuget.g.props
+*.nuget.g.targets
+
+# Test results
+TestResults/
+*.trx
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*~
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Local configuration
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Generated files
+*.g.cs
+*.generated.cs
+*.AssemblyInfo.cs
+*.AssemblyAttributes.cs
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Signing keys and certificates
+*.pfx
+*.p12
+*.snk
+*.key
+
+# Local build scripts output
+build-output/
+dist/
