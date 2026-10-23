@@ -15,8 +15,6 @@ dotnet pack -c Release --no-build
 
 Install the resulting `.nupkg` from DevToys > Manage extensions.
 
-**Important:** This project has not been compiled or runtime-tested in this environment (the .NET SDK is unavailable). The `DevToys.Api` version may need adjustment to match your installation.
-
 ## Usage
 
 - HEX: input and output are hexadecimal representations of bytes.
